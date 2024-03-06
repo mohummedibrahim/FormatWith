@@ -158,7 +158,7 @@ namespace FormatWith.Internal
                 .Select(pt => pt.Value);
         }
 
-        private static ReplacementResult FromReplacementObject(string key, object replacementObject)
+        public static ReplacementResult FromReplacementObject(string key, object replacementObject)
         {
             // need to split this into accessors so we can traverse nested objects
             var members = key.Split(new[] { "." }, StringSplitOptions.None);
