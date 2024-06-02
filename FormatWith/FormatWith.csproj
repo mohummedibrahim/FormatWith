@@ -8,7 +8,7 @@
 		<AssemblyName>FormatWith</AssemblyName>
 		<AssemblyTitle>FormatWith</AssemblyTitle>
 		<PackageId>FormatWith</PackageId>
-		<VersionPrefix>3.0.1</VersionPrefix>
+		<VersionPrefix>3.0.2</VersionPrefix>
 		<Authors>Ryan Crosby</Authors>
 		<Copyright>Copyright © Ryan Crosby 2017 - 2020</Copyright>
 		<PackageTags>named string formatter extension NetStandard 2.0</PackageTags>
@@ -21,7 +21,7 @@
 		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
 		<GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<RepositoryUrl>https://github.com/crozone/FormatWith</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageReleaseNotes>
